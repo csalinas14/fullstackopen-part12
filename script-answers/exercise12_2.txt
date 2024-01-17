@@ -1,0 +1,30 @@
+Script started on Tue Jan  9 12:58:30 2024
+Restored session: Tue Jan  9 12:56:58 CET 2024
+[1m[7m%[27m[1m[0m                                                                                                                                             ]7;file://Carloss-MacBook-Air.local/Users/carlossalinas/Documents/Code/Github/FullStackOpen-Part12/part12-containers-applications[0m[27m[24m[J(base) carlossalinas@Carloss-MacBook-Air part12-containers-applications % [K[?2004hddocker run -it ubuntu bash[?2004l
+Unable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+
+[1A[2K005e2837585d: Pulling fs layer [1B[1A[2K005e2837585d: Downloading [>                                                  ]  276.8kB/27.36MB[1B[1A[2K005e2837585d: Downloading [======>                                            ]  3.349MB/27.36MB[1B[1A[2K005e2837585d: Downloading [=============>                                     ]  7.514MB/27.36MB[1B[1A[2K005e2837585d: Downloading [======================>                            ]  12.25MB/27.36MB[1B[1A[2K005e2837585d: Downloading [==============================>                    ]  16.71MB/27.36MB[1B[1A[2K005e2837585d: Downloading [========================================>          ]   22.3MB/27.36MB[1B[1A[2K005e2837585d: Verifying Checksum [1B[1A[2K005e2837585d: Download complete [1B[1A[2K005e2837585d: Extracting [>                                                  ]  294.9kB/27.36MB[1B[1A[2K005e2837585d: Extracting [=======>                                           ]  4.129MB/27.36MB[1B[1A[2K005e2837585d: Extracting [==============>                                    ]  7.668MB/27.36MB[1B[1A[2K005e2837585d: Extracting [======================>                            ]  12.09MB/27.36MB[1B[1A[2K005e2837585d: Extracting [==============================>                    ]  16.81MB/27.36MB[1B[1A[2K005e2837585d: Extracting [======================================>            ]  21.23MB/27.36MB[1B[1A[2K005e2837585d: Extracting [===========================================>       ]  23.89MB/27.36MB[1B[1A[2K005e2837585d: Extracting [=================================================> ]  27.13MB/27.36MB[1B[1A[2K005e2837585d: Extracting [==================================================>]  27.36MB/27.36MB[1B[1A[2K005e2837585d: Pull complete [1BDigest: sha256:6042500cf4b44023ea1894effe7890666b0c5c7871ed83a97c36c76ae560bb9b
+Status: Downloaded newer image for ubuntu:latest
+[?2004h]0;root@6e9be01f070a: /root@6e9be01f070a:/# [K]0;root@6e9be01f070a: /root@6e9be01f070a:/# mkdi  r usr   /user  r/src/app
+[?2004l[?2004h]0;root@6e9be01f070a: /root@6e9be01f070a:/# ls
+[?2004l[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;36mlib[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+[?2004h]0;root@6e9be01f070a: /root@6e9be01f070a:/# cd usr
+[?2004l[?2004h]0;root@6e9be01f070a: /usrroot@6e9be01f070a:/usr# ls
+[?2004l[0m[01;34mbin[0m  [01;34mgames[0m  [01;34minclude[0m  [01;34mlib[0m  [01;34mlibexec[0m  [01;34mlocal[0m  [01;34msbin[0m  [01;34mshare[0m  [01;34msrc[0m
+[?2004h]0;root@6e9be01f070a: /usrroot@6e9be01f070a:/usr# cd sr  c
+[?2004l[?2004h]0;root@6e9be01f070a: /usr/srcroot@6e9be01f070a:/usr/src# ls
+[?2004l[0m[01;34mapp[0m
+[?2004h]0;root@6e9be01f070a: /usr/srcroot@6e9be01f070a:/usr/src# cd app
+[?2004l[?2004h]0;root@6e9be01f070a: /usr/src/approot@6e9be01f070a:/usr/src/app# touch index.js
+[?2004l[?2004h]0;root@6e9be01f070a: /usr/src/approot@6e9be01f070a:/usr/src/app# ls
+[?2004lindex.js
+[?2004h]0;root@6e9be01f070a: /usr/src/approot@6e9be01f070a:/usr/src/app# exit
+[?2004lexit
+[1m[7m%[27m[1m[0m                                                                                                                                             ]7;file://Carloss-MacBook-Air.local/Users/carlossalinas/Documents/Code/Github/FullStackOpen-Part12/part12-containers-applications[0m[27m[24m[J(base) carlossalinas@Carloss-MacBook-Air part12-containers-applications % [K[?2004heexit[?2004l
+
+Saving session...
+...saving history...truncating history files...
+...completed.
+
+Script done on Tue Jan  9 13:00:51 2024

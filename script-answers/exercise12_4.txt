@@ -1,0 +1,9 @@
+Docker start -i brave_chandrasekhar
+
+apt-get -y install curl
+
+curl -sL https://deb.nodesource.com/setup_16.x | bash
+apt install -y nodejs
+
+root@b8548b9faec3:/# node /usr/src/app/index.js
+Hello World
