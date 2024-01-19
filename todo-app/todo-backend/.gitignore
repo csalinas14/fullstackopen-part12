@@ -1,3 +1,6 @@
+#Mongo
+./mongo_data:/data/db
+
 # Logs
 logs
 *.log
