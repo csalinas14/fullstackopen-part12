@@ -1,6 +1,7 @@
 #Mongo
-./mongo_data:/data/db
-
+mongo_data/
+#Redis
+redis_data/
 # Logs
 logs
 *.log
