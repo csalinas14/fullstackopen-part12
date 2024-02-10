@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs HTTP/1.1
+content-type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNsb3MiLCJpZCI6IjY0ZGFmMDFjZTlkYjE5NThmOGFhZWNjOSIsImlhdCI6MTY5MjA3Mzg5MX0.BzD74ubM8e29zJpuworgUz4CEPZZhoZdntZisgkY3xM
+
+{
+    "title": "Token Received2",
+    "author": "No one",
+    "url": "who cares",
+    "likes": 2
+}
+

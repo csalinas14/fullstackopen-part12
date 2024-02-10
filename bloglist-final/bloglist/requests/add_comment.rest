@@ -1,0 +1,8 @@
+POST http://localhost:3003/api/blogs/64f657b69c5a61acdc3cae79/comments HTTP/1.1
+content-type: application/json
+
+{
+  "comment": "testing comment"
+}
+###
+GET http://localhost:3003/api/blogs
